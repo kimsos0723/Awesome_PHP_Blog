@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 100%;
+    background-color: #6fad4a;
+}
+
+.title-wrapper {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.title {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.profile {
+    width: 250px;
+    height: 250px;
+    font-size: 250px;
+    color: #FFF;
+}
+
+.item-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item {
+    color: #EEEEEE;
+}
+
+.item:hover {
+    color: #FFFFFF;
+}
