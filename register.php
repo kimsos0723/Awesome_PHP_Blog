@@ -11,7 +11,7 @@
     <div class="page-wrapper">
       <div class="register-wrapper">
         <p class="register-title">REGISTER</p>
-        <form class="register-form">
+        <form action="/signup.php" method="post" class="register-form">
           <input title="username" name="username" placeholder="Username">
           <input title="password" name="password" placeholder="Password" type="password">
           <input title="nickname" name="nickname" placeholder="Nickname">
