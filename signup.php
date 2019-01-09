@@ -22,10 +22,8 @@ $result = $connect->query("INSERT INTO user VALUES('{$username}', '{$password}',
 $connect->close();
 if(!$result){
     echo  "<script>alert('이미 사용중인 ID 입니다.');history.back()</script>";
-    $result->close();
 }else{
     echo "<script> alert('회원가입에 성공했습니다');history.back()</script>";
-    $result->close();
     $_SESSION['user'] = new User($username, $password, $nickname);
     header("Location: /index.php");
 }
